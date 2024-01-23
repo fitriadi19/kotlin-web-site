@@ -71,7 +71,7 @@ If you've encountered any difficulties or problems, report an issue to our [issu
 
 </tab>
 
-<tab id="cross-platform-mobile" title="Cross-platform mobile app">
+<tab id="cross-platform-mobile" title="Cross-platform app">
 
 Here you'll learn how to develop and improve your cross-platform mobile application using [Kotlin Multiplatform](https://kotlinlang.org/lp/multiplatform/).
 
@@ -160,6 +160,30 @@ Here you'll learn how to develop and publish a multiplatform library:
 5. **Follow Kotlin** on ![Twitter](twitter.svg){width=25}{type="joined"} [Twitter](https://twitter.com/kotlin), ![Reddit](reddit.svg){width=25}{type="joined"} [Reddit](https://www.reddit.com/r/Kotlin/), and ![YouTube](youtube.svg){width=25}{type="joined"} [Youtube](https://www.youtube.com/channel/UCP7uiEZIqci43m22KDl0sNw), and don't miss any important ecosystem updates.
 
 If you've encountered any difficulties or problems, report an issue to our [issue tracker](https://youtrack.jetbrains.com/issues/KT).
+
+</tab>
+
+<tab id="data-analysis" title="Data analysis">
+
+From building data pipelines to productionizing machine learning models, Kotlin can be a great choice for
+working with data.
+
+1. **Get started with your first Kotlin Notebook:**
+
+   * Link to the Get started with Kotlin notebook.
+
+2. **Use Kotlin libraries for data manipulation and visualization:**
+
+   * [Serialization](serialization.md)
+   * [DataFrame](https://kotlin.github.io/dataframe/overview.html)
+   * [Kandy](https://kotlin.github.io/kandy/welcome.html)
+
+3. **Join the Kotlin Data Analysis community:**
+
+   * ![Slack](slack.svg){width=25}{type="joined"} Slack: [get an invite](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up) and join the [#datascience](https://kotlinlang.slack.com/archives/C4W52CFEZ) channel.
+   * ![Twitter](twitter.svg){width=25}{type="joined"} Twitter: follow [KotlinForData](http://twitter.com/KotlinForData).
+
+4. **Follow Kotlin** on ![Twitter](twitter.svg){width=25}{type="joined"} [Twitter](https://twitter.com/kotlin), ![Reddit](reddit.svg){width=25}{type="joined"} [Reddit](https://www.reddit.com/r/Kotlin/), and ![YouTube](youtube.svg){width=25}{type="joined"} [Youtube](https://www.youtube.com/channel/UCP7uiEZIqci43m22KDl0sNw), and don't miss any important ecosystem updates.
 
 </tab>
 
