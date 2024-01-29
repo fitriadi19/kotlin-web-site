@@ -12,6 +12,37 @@ _[Released: %kotlinEapReleaseDate%](eap.md#build-details)_
 The Kotlin %kotlinEapVersion% release is out! It mostly covers the stabilization of the [new Kotlin K2 compiler](#kotlin-k2-compiler), 
 which reached its Beta status for all targets since 1.9.20. In addition, there are also [improvements for the Gradle build tool](#gradle-improvements).
 
+## 2.0.0-Beta3 runnable sample test
+
+```kotlin
+class Cat {
+  fun purr() {
+    println("Purr purr")
+  }
+}
+
+fun petAnimal(animal: Any) {
+  val isCat = animal is Cat
+  if (isCat) {
+    // In Kotlin 2.0.0, the compiler can access
+    // information about isCat so it knows that
+    // isCat was smart cast to type Cat.
+    // Therefore, the purr() function is successfully called.
+    // In Kotlin 1.9.20, the compiler doesn't know
+    // about the smart cast so calling the purr()
+    // function triggers an error.
+    animal.purr()
+  }
+}
+
+fun main(){
+  val kitty = Cat()
+  petAnimal(kitty)
+  // Purr purr
+}
+```
+{kotlin-runnable="true" kotlin-min-compiler-version="2.0"}
+
 ## IDE support
 
 The Kotlin plugins that support %kotlinEapVersion% are bundled in the latest IntelliJ IDEA and Android Studio. 
